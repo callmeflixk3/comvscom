@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 7vw;
+    background: linear-gradient(125deg, #92FFC0, #002661);
+}
+.nav-container{
+    max-width: 85vw;
+    height: 8vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logonav{
+    width: 13vw;
+    object-fit: contain;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-name-spec{
+    color: white;
+    margin-right: 10px;
+}
+.fa-computer{
+    font-size: 1.5vw;
+    color: white;
+}
+.nav-profile-pick i{
+    position: relative;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.nav-profile-pick i:hover{
+    color: black;
+}
+.listcount{
+    position: absolute;
+    top: 2.5vw;
+    right: 6vw;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.td,
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.th{
+    width: 300px;
+    
+}
+.display-5{
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+.col-md-9{
+    max-width: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-name-vs a{ 
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.profile-name-vs a:hover{
+    color: black;
+}
+.profile-name-spec a{ 
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.profile-name-spec a:hover{
+    color: black;
+}
+.login a{ 
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.login a:hover{
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 4vw;
+    background: linear-gradient(125deg, #002661 ,#92FFC0);
+}
+.footer-bottom{
+    max-width: 85vw;
+    height: 4vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fa-user{
+    margin-right: 10px;
+}
+h6{
+    text-align: right;
+    margin-right: 80px;
+}
